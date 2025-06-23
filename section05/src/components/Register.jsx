@@ -15,7 +15,7 @@ const Register = () => {
   });
 
   // 값이 변경되어도 리렌더링 되지 않는 변수를 만들고 싶을 때 useRef 사용
-  // dom 요소에 적용 가능함
+  // dom 요소에 ref를 이용하여 접근할 수 있음
   const countRef = useRef(0);
   const inputRef = useRef();
 

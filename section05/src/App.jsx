@@ -8,12 +8,13 @@
 // 3. 부모 컴포넌트가 리렌더링되었을 때
 
 import "./App.css";
+import HookExam from "./components/HookExam";
 import Register from "./components/Register";
 
 function App() {
   return (
     <>
-      <Register />
+      <HookExam />
     </>
   );
 }
