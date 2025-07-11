@@ -10,15 +10,18 @@
 }
 
 .Header .header_center {
-  width: 50%;
+  /* width: 50%; */
+  flex: 2;
   font-size: 25px;
   justify-content: center;
 }
 .Header .header_left {
-  width: 25%;
+  /* width: 25%; */
+  flex: 1;
   justify-content: flex-start;
 }
 .Header .header_right {
-  width: 25%;
+  /* width: 25%; */
+  flex: 1;
   justify-content: flex-end;
 }
